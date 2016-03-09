@@ -1,0 +1,16 @@
+{
+    "description": "Test Go scope",
+    "framework": "ubuntu-sdk-15.04",
+    "architecture": "armhf",
+    "hooks": {
+        "goscope": {
+            "scope": "%SCOPE_NAME%",
+            "apparmor": "goscope-security.json"
+        }
+    },
+    "icon": "icon",
+    "maintainer": "Canonical Content Partners <canonical-content-partners@canonical.com>",
+    "name": "%SCOPE_NAME%",
+    "title": "Go scope",
+    "version": "1.0.0"
+}
